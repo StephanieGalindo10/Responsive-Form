@@ -47,6 +47,12 @@ CSS
 footer{
     text-align: center;
 }
+#right-column fieldset p{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
 
 @media(max-width: 900px){
     #formwrapper{

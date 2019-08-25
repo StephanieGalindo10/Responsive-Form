@@ -13,10 +13,41 @@
             <form id="formwrapper">
                     <section id="left-column">
                             <fieldset>
-                               <legend>Block One</legend>  
+                               <legend>Block One</legend> 
+                               <p>
+                               <input id= "firstname" name="firstname"  type="text" placeholder="First Name" autofocus required tabindex="1">
+                               <input id= "lastname" name="lastname"  type="text" placeholder="Last Name"required tabindex="2">
+                               <input id="email" name="email" type="email" placeholder="email@address.com"required tabindex="3">
+                                <input id="url" name="url" type="url" placeholder="URL">
+                                <p>
+                                    <label for="username">Username:</label>
+                                    <input id="username" name="username" type="text">
+                                    <label for="password">Password:</label>
+                                    <input id="password" name="password" type="password">
+                                </p>
+                               <!--  change placeholder to value so it automatically say first name or put placeholder-->
                             </fieldset>
                             <fieldset>
                                 <legend>Block Two</legend> 
+                                <p>
+                                    <input id="address1" name="address1" type="text" placeholder="Address 1">
+                                    <input id="address2" name="address2" type="text" placeholder="Address 2">
+                                    <input id="city" name="city" type="text" placeholder="City">
+                                    <input id="zip" name="zip" type="number" placeholder="Zip Code">
+                                </p>
+                                <select>
+                                    <optgroup label="USA">
+                                        <option>California</option>
+                                        <option>New York</option>
+                                        <option>New Mexico</option>
+                                    </optgroup>
+                                    <optgroup label="Australia">
+                                        <option>Bridbane</option>
+                                        <option>Sydney</option>
+                                        <option>Melbourne</option>
+                                    </optgroup>
+                                </select>
+                                
                             </fieldset>
                         </section>
                         <section id="right-column">
@@ -31,13 +62,26 @@
                                         <span><input type="radio" name="color" value="yellow">Yellow</span>
                                     </p>
                                     <p>
-                                            <span><input type="checkbox" name="fruit" value="apple">Apple</span>
-                                            <span><input type="checkbox" name="fruit" value="orange">Orange</span> 
-                                            <span><input type="checkbox" name="fruit" value="banana" checked>Banana</span> 
-                                            <span><input type="checkbox" name="fruit" value="peach">Peach</span> 
-                                            <span><input type="checkbox" name="fruit" value="pear">Pear</span> 
-                                            <span><input type="checkbox" name="fruit" value="plumb">Plumb</span>   
+                                            <span><input type="checkbox" name="languages" value="HTML">HTML</span>
+                                            <span><input type="checkbox" name="languages" value="CSS">CSS</span> 
+                                            <span><input type="checkbox" name="languages" value="Javascript" checked>Javascript</span> 
+                                            <span><input type="checkbox" name="languages" value="React">React</span> 
+                                            <span><input type="checkbox" name="languages" value="Nodejs">Nodejs</span> 
+                                            <span><input type="checkbox" name="languages" value="MySQL">MySQL</span>   
                                         </p>
+                                        <select>
+    <optgroup label="USA">
+        <option>Chicago</option>
+        <option>New York</option>
+        <option>Dallas</option>
+    </optgroup>
+    <optgroup label="Australia">
+        <option>Bridbane</option>
+        <option>Sydney</option>
+        <option>Melbourne</option>
+    </optgroup>
+</select>
+
                             </fieldset>
                             <fieldset>
                                 <textarea rows= "4" cols="40"
